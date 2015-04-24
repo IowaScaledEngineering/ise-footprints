@@ -1,0 +1,10 @@
+Element(0x00 "Bourns MF-R Multifuse" "" "bourns-mf-r" 160 0 3 100 0x00)
+(
+	Pin(0 -100 60 38 "1" 0x101)
+	 Pin(0 100 60 38 "2" 0x01)
+	ElementLine(-65 -240 -65 240 10)
+	ElementLine(-65 240 65 240 10)
+	ElementLine(65 240 65 -240 10)
+	ElementLine(65 -240 -65 -240 10)
+	Mark(0 0)
+)
