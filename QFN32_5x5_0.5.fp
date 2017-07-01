@@ -1,6 +1,6 @@
 #-------------------------------------------------------
 # Iowa Scaled Engineering
-# fpgen.py --pins="32" --pinshigh="8" --padwidth="0.23mm" --padlength="0.4mm" --padspacing="0.5mm" --overhang="0.25mm" --underhang="0mm" --soldermask="3mil" --clearance="10mil" --pkgwidth="5mm" --pkgheight="5mm" --name="QFN32_5x5_0.5" --description="32-pin 5x5 QFN with 0.5mm spacing (Based on Atmel 32M1-A package)" --epwidth="3.1mm" --epheight="3.1mm" --epstencilwidth="2.7mm" --epstencilheight="2.7mm" --silkwidth="6mm" --silkheight="6mm" --silkthickness="10mil"
+# fpgen.py --pins="32" --pinshigh="8" --padwidth="0.23mm" --padlength="0.4mm" --padspacing="0.5mm" --overhang="0.25mm" --underhang="0mm" --soldermask="3mil" --clearance="10mil" --pkgwidth="5mm" --pkgheight="5mm" --name="QFN32_5x5_0.5" --description="32-pin 5x5 QFN with 0.5mm spacing (Based on Atmel 32M1-A package)" --epwidth="3.1mm" --epheight="3.1mm" --epstencilwidth="2mm" --epstencilheight="2mm" --silkwidth="6mm" --silkheight="6mm" --silkthickness="10mil"
 # 
 # Name:        QFN32_5x5_0.5
 # Description: 32-pin 5x5 QFN with 0.5mm spacing (Based on Atmel 32M1-A package)
@@ -16,7 +16,7 @@
 # Soldermask:  3.00 mil (0.076 mm)
 # Package:     196.85 x 196.85 mil (5.000 x 5.000 mm)
 # Exposed Pad: 122.05 x 122.05 mil (3.100 x 3.10 mm)
-# EP Stencil:  106.30 x 106.30 mil (2.700 x 2.70 mm)
+# EP Stencil:  78.74 x 78.74 mil (2.000 x 2.00 mm)
 #-------------------------------------------------------
 
 Element[0x00000000 "QFN32_5x5_0.5" "" "" 0 0 0 0 0 100 0x00000000]
@@ -58,7 +58,7 @@ Element[0x00000000 "QFN32_5x5_0.5" "" "" 0 0 0 0 0 100 0x00000000]
 	Pad[-4921 -10374 -4921 -8720 906 2000 1506 "31" "31" "square"]
 	Pad[-6890 -10374 -6890 -8720 906 2000 1506 "32" "32" "square"]
 	# Exposed Pad
-	Pad[0 -0 0 0 10630 2000 12805 "33" "33" "square"]
+	Pad[0 -0 0 0 7874 2000 8474 "33" "33" "square"]
 	Pad[0 -0 0 0 12205 2000 12805 "33" "33" "square,nopaste"]
 	# Outline
 	ElementLine [-11811 -11811 11811 -11811 1000]
