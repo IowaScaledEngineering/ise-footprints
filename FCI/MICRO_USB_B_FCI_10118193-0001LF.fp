@@ -1,6 +1,6 @@
 Element["" "MICRO_USB_B_FCI_10118193-0001LF" "" "" 0 0 0 0 1 100 ""]
 (
-	Pin[-12992 0 7874 0 8474 4800 "" "G" "edge2"]
+	Pin[-12992 0 7874 2000 8474 4800 "" "G" "edge2"]
 	Pin[12992 0 7874 2000 8474 4800 "" "G" "edge2"]
 
 	# Mounting pads by pins
